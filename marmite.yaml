@@ -1,12 +1,14 @@
-name: Your Blog
-tagline: Things you talk about
-url: https://YOURUSER.github.io/blog
+name: Code World, No Blanket 
+tagline: Researching Software Developers and Development
+url: https://code-world-no-blanket.github.io/blog
 menu:
-  - ["About", "about.html"]
-  - ["Pages", "pages.html"]
+  - ["Home", "#"]
+ # - ["Pages", "pages.html"]
+ # - ["Follow me", "https://mastodon.social/@YOURUSER"]
   - ["Tags", "tags.html"]
-  - ["Follow me", "https://mastodon.social/@YOURUSER"]
-  - ["Github", "https://github.com/rochacbruno/marmite"]
+  - ["Archive", "archive.html"]
+  - ["About ↗️", "https://code-world-no-blanket.github.io"]
+  - ["Github ↗️", "https://github.com/code-world-no-blanket/blog"]
 
 
 # More options available to customize the website
