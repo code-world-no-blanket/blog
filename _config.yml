@@ -1,2 +1,5 @@
 plugins:
   - jekyll-feed
+title: Code World, No Blanket Blog
+description: Welcome to our blog
+author: Chris Brown
