@@ -3,8 +3,6 @@ tagline: Researching Software Development and Developers
 url: https://code-world-no-blanket.github.io/blog
 menu:
   - ["Home", "#"]
- # - ["Pages", "pages.html"]
- # - ["Follow me", "https://mastodon.social/@YOURUSER"]
   - ["Tags", "tags.html"]
   - ["Archive", "archive.html"]
   - ["About ↗️", "https://code-world-no-blanket.github.io"]
