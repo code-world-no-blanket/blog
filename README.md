@@ -10,7 +10,7 @@ We are a software engineering research group in the Department of Computer Scien
 
 ### Why start this blog?
 
-This blog is motivated by recent discussions with colleagues and position papers (i.e., [Winters2024], [Wyrich2025], etc.) outlining the increasing gap between SE research and practice. Just publishing papers is not enough---for research to make an actual impact on software development in practice, more efforts are needed. 
+This blog is motivated by recent discussions with colleagues and position papers (i.e., [[1](http://alumni.cs.ucr.edu/~titus/applicability.pdf)], [[2](https://arxiv.org/pdf/2505.09541)], etc.) outlining the increasing gap between SE research and practice. Just publishing papers is not enough---for research to make an actual impact on software development in practice, more efforts are needed. 
 
 This blog is a first step to improve the awareness, relevance, and potential impact of our research. We will provide regular communication about our work, aiming to engage with researchers and practitioners on research and general software development-related topics. If you would like to [contribute](https://github.com/code-world-no-blanket/blog), [collaborate](https://code-world-no-blanket.github.io/research.html), or [donate](https://github.com/sponsors/code-world-no-blanket), please feel free to reach out via <a href="mailto:code_world@vt.edu">email</a>. 
 
@@ -18,12 +18,12 @@ This blog is a first step to improve the awareness, relevance, and potential imp
 
 Thank you to the all of exceptional students who have contributed to these research efforts.
 
-This blog template ([Marmite](https://rochacbruno.github.io/marmite/)) was created by [Bruno Rocha](https://bruno.rocha.social/), my former colleague at Red Hat.
+This blog template ([Marmite](https://rochacbruno.github.io/marmite/)) was created by [Bruno Rocha](https://bruno.rocha.social/), my former colleague at Red Hat. Try it [here](https://github.com/rochacbruno/blog)!
 
 ---
 **References**
 >>>
-[Winters2024]: T. Winters. [Thoughts on applicability](http://alumni.cs.ucr.edu/~titus/applicability.pdf). Journal of Systems and Software, 2024.
+[1]: T. Winters. [Thoughts on applicability](http://alumni.cs.ucr.edu/~titus/applicability.pdf). Journal of Systems and Software, 2024.
 
-[Wyrich2025]: M. Wyrich, C. Tinnes, S. Baltes, and S. Apel. [The Silent Scientist When Software Research Fails to Reach Its Audience](https://arxiv.org/pdf/2505.09541). 2025.
+[2]: M. Wyrich, C. Tinnes, S. Baltes, and S. Apel. [The Silent Scientist When Software Research Fails to Reach Its Audience](https://arxiv.org/pdf/2505.09541). 2025.
 >>>
