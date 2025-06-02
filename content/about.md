@@ -1,6 +1,8 @@
 # Welcome to our Blog!
 
-<img src="https://code-world-no-blanket.github.io/files/img/codeworld-Logo-Color.png" width="500">
+<p align="center">
+  <a href="https://code-world-no-blanket.github.io/" target="_blank"><img width="400" src="https://code-world-no-blanket.github.io/files/img/codeworld-Logo-Color.png"></a>
+</p>
 
 ### Who are we?
 
