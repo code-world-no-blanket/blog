@@ -1,13 +1,20 @@
 name: Code World, No Blanket 
 tagline: Researching Software Development and Developers
 url: https://code-world-no-blanket.github.io/blog
+
+card_image: https://code-world-no-blanket.github.io/files/img/codeworld-Logo-Color.png
 menu:
   - ["Home", "#"]
   - ["Tags", "tags.html"]
   - ["Archive", "archive.html"]
-  - ["About ↗️", "https://code-world-no-blanket.github.io"]
+  - ["About", "about.html"]
   - ["Github ↗️", "https://github.com/code-world-no-blanket/blog"]
 
-
+default_author: dcbrown
+authors:
+  dcbrown:
+    name: Chris Brown
+    avatar: https://chbrown13.github.io/files/img/brown.jpg
+    bio: Assistant Professor at Virginia Tech
 # More options available to customize the website
 # read on https://rochacbruno.github.io/marmite/tag/customization.html
