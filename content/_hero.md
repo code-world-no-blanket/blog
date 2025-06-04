@@ -7,7 +7,7 @@
 <div>
 
 >>>
-Software Engineering <a href="https://code-world-no-blanket.github.io/" target="_blank">Research Group</a><br>
-Department of Computer Science<br>
-Virginia Tech
+<a href="https://code-world-no-blanket.github.io/" target="_blank" style="color:#555555">Software Engineering Research Group</a><br>
+<a href="https://cs.vt.edu/" target="_blank" style="color:#555555">Department of Computer Science</a><br>
+<a href="https://vt.edu/" target="_blank" style="color:#555555">Virginia Tech</a>
 >>>
