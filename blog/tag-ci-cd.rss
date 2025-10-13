@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Code World, No Blanket</title><link>https://code-world-no-blanket.github.io/blog</link><description>Researching Software Development and Developers</description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><lastBuildDate>Mon, 13 Oct 2025 17:42:48 GMT</lastBuildDate><generator>marmite</generator><image><url>https://code-world-no-blanket.github.io/blog/https://code-world-no-blanket.github.io/files/img/codeworld-Logo-Color.png</url><title></title><link></link></image><item><title>We Hosted a Workshop for Practitioners---No One Came</title><link>https://code-world-no-blanket.github.io/blog/2025-06-05_workshop.html</link><author>dcbrown</author><category>outreach</category><category>security</category><category>testing</category><category>CI/CD</category><category>research</category><guid>https://code-world-no-blanket.github.io/blog/2025-06-05_workshop.html</guid><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><source url="https://code-world-no-blanket.github.io/blog">tag-ci-cd</source><content:encoded><![CDATA[<p>As part of a <a href="https://chbrown13.github.io/files/grants/Brown_CCI_2025.pdf">recent grant</a>, we were required to host a topical workshop to share ideas and promote collaboration among stakeholders. I decided to design our workshop primarily for software practitioners (individuals who apply software engineering concepts in real-world industry settings). As one of our <a href="about.html">research group goals</a> is to explore how we might bridge the gap between academia and industry---this seemed like the perfect opportunity.</p>
+<h4><a href="#the-workshop" aria-hidden="true" class="anchor" id="the-workshop"></a>The Workshop</h4>
+<p>The workshop was organized to be an interactive “working group” on topics related to our grant <a href="https-code-world-no-blanket-github-io-cci-workshop.html">testing and securing user interfaces in CI/CD pipelines</a>. The event featured research presentations share and collect feedback on preliminary research findings, interactive discussions to uncover challenges in practice, and brainstorming sessions to motivate new solutions and researh directions. We espectially hoped to target practitioners for our workshop to gain industry perspectives and inspire future work with practical implications and relevance.</p>
+<p>We started planning the workshop activities in late March (~7 weeks before the event) and finalized the details to share in mid-April (~3.5 weeks before). 20 people registered to attend through our online form (14 in-person and 6 virtual, mostly from VT but some external). We booked a conference room on campus and two graduate students put in a lot of work to prepare presentation slides and activities related to their research from this project.</p>
+<p>Yet, when the time for the workshop arrived---<strong>no one showed up</strong>. Actually two people came---another graduate student from our research group and a CS faculty member working on related research---and I am extremely grateful for their attendance. However, this was way less than the expected attendance and not a single software practitioner (the intended audience) joined our workshop.</p>
+<p>We still had a great time---and received valuable insights and feedback on our work. However, I was very dissapointed we were unable to attract a broader audience. Here is an overview of what we tried to attract practitioners to our workshop, and a brief reflection on what to do differently next time.</p>
+<h4><a href="#attracting-software-practitioners" aria-hidden="true" class="anchor" id="attracting-software-practitioners"></a>Attracting Software Practitioners</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>How We Tried to Appeal to Software Practitioners</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🧑‍💻</td>
+<td>Focused on (what we perceived to be) <em>industry-relevant topics</em>: <br>- UI testing 🧪 <br>- UI security 🔒 <br>- CI/CD pipelines 🔁</td>
+</tr>
+<tr>
+<td>🎙️</td>
+<td>Invited a <em><a href="https://automationpanda.com/">world-class speaker</a></em> with extensive industry experience, who provided a very interesting and highly relevant virtual keynote despite the low turnout</td>
+</tr>
+<tr>
+<td>📆</td>
+<td>Hosted the event on <em>Saturday</em> to avoid potential conflicts due to work schedules</td>
+</tr>
+<tr>
+<td>🗣️</td>
+<td><em>Publicized the workshop</em> to our <a href="https://nrv.dev/">local developer group</a> Slack channel and <a href="https://www.linkedin.com/posts/activity-7323820203622998016-C_5o?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAtzWLgBdl1B9ECX-U57kWPxRdtcmPPQI7Y">LinkedIn</a></td>
+</tr>
+<tr>
+<td>💻</td>
+<td>Made the event <em>hybrid</em> to support in-person and virtual attendance</td>
+</tr>
+<tr>
+<td>🍕</td>
+<td>Provided <em>free food</em> (lunch and refreshments)</td>
+</tr>
+</tbody>
+</table>
+<h4><a href="#reflection" aria-hidden="true" class="anchor" id="reflection"></a>Reflection</h4>
+<dl>
+<dt>There are some clear issues that might have prevented attendance---a 4-hour workshop on a Saturday might be too long of a time commitment, hosting it on campus may have deterred non-academic attendees, providing compensation would have encouraged participation, etc. Here are some more takeaways on what we could do better next time.</dt>
+<dd>📖 <strong>Research-to-Practice Relevance:</strong> I assumed our research topic (UI testing and security in CI/CD) would be relevant to software developers---and our preliminary findings from this work show it is a challenge for practitioners in open-source development [Gan2025]. However, it may not be a topic developers are actually interested in, or did not resonate with the population we reached out too. Reaching out to the target audience ahead of time to see what issues/topics they care about, then organizing our outreach based on that may be more effective. In addition, better communication regarding the direct relevance and value of the topic/our work could help.</dd>
+<dd>📢 <strong>Broader Promotion:</strong> To promote the workshop, I shared messages on the local developer Slack channel (n = 2) and LinkedIn (n = 1), in addition to emails to relevant listservs at Virginia Tech. However, more broad and more frequent publicizing may have helped. I am also personally off most social media now, with the exception of LinkedIn. Yet, it may be beneficial to re-join social media and explore other online platforms to promote our work and engage with development-related communities. Suggestions are appreciated!</dd>
+<dd>🤝 <strong>Deeper Relationships:</strong> Finally and most importantly, deeper connections with the target audience could enhance future efforts. This was not my first time messaging this particular group, and I have met and interacted with several members of this community before. However, establishing personal connections and more in-depth relationships can encourage engagement and motivate participation. For instance, attending events and meetup groups hosted by this organization to engage with developers through face-to-face interactions. This will also help gain insights on what our local developer community cares about, motivating future research studies and enhancing the overall relevance of our work.</dd>
+</dl>
+<p>We will regroup and eventually try again---planning to incorporate some of these items as we potentially explore other ways to showcase our work and help bridge the research-practice gap. Any thoughts, tips, or suggestions on how to better engage with practitioners as researchers are welcome.</p>
+<hr />
+<p><strong>References</strong></p>
+<blockquote>
+<p>[Gan2025]: X. Gan, H. Liang, C. Brown. &quot;Challenges, Strategies, and Impacts: A Qualitative Study on UI Testing in CI/CD Processes from GitHub Developers' Perspectives&quot;. <em>International Conference on Software Testing, Verification and Validation</em> (ICST 2025).</p>
+</blockquote>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Code World, No Blanket</title><link>https://code-world-no-blanket.github.io/blog</link><description>Researching Software Development and Developers</description><pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate><lastBuildDate>Mon, 13 Oct 2025 17:42:48 GMT</lastBuildDate><generator>marmite</generator><image><url>https://code-world-no-blanket.github.io/blog/https://code-world-no-blanket.github.io/files/img/codeworld-Logo-Color.png</url><title></title><link></link></image><item><title>ESEM 2025 Overview</title><link>https://code-world-no-blanket.github.io/blog/2025-10-13_esem25.html</link><author>dcbrown</author><category>research</category><guid>https://code-world-no-blanket.github.io/blog/2025-10-13_esem25.html</guid><pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate><source url="https://code-world-no-blanket.github.io/blog">tag-research</source><content:encoded><![CDATA[<p>Our paper <em>&quot;Exploring the Evidence-Based SE Beliefs of Generative AI Tools&quot;</em> was accepted and recently presented at the ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (<a href="https://conf.researchr.org/home/esem-2025">ESEM 2025</a>) Emerging Results and Vision track. This post summarizes the problem we explored, provides an overview of our emerging results, and and future vision of AI-assisted software engineering. A preprint is available <a href="https://arxiv.org/pdf/2407.13900">here</a>.</p>
+<p><strong>Exploring the Evidence-Based SE Beliefs of Generative AI Tools [ESEM ERV]</strong></p>
+<p>Chris Brown and Jason Cusati</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Generative AI tools are increasingly used to support software development, yet little is known about the &quot;beliefs&quot; of AI tools with regard to evidence-based practices supported by empirical SE research.</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We conducted a <em>conceptual replication study</em>, prompting generative AI tools---ChatGPT, GitHub Copilot, Gemini, Blackbox AI, and Claude---to respond to questions regarding 17 evidence-based claims used in prior work to assess the beliefs of human software developers [Devanbu2016].</p>
+</li>
+<li>
+<p>📊 <strong>Emerging Results:</strong> We found generative AI tools typically have positive beliefs aligning with research claims, however can have ambiguous responses. Further, most tools lack credible evidence to support their claims.</p>
+</li>
+<li>
+<p>💡 <strong>Vision:</strong> We provide implications for software developers leveraging generative AI tools in practice. We also discuss future research directions to promote:</p>
+</li>
+</ul>
+<ol>
+<li>Evidence-based generative AI for SE;</li>
+<li>Evidence-based AI integration within development workflows; and</li>
+<li>Generative AI-based techniques for translating research evidence for practitioners.</li>
+</ol>
+<p>This was my first time attending ESEM, and I really enjoyed presenting this work and connecting with members of this community. Visiting Honolulu was also an amazing experience 🏖️ We hope this work provides useful insights and motivates future work to enhance evidence-based practices in generative AI-driven software development.</p>
+<hr />
+<p><strong>References</strong></p>
+<blockquote>
+<p>[Devanbu2016] P. Devanbu, T. Zimmermann, and C. Bird, “Belief &amp; evidence in empirical software engineering,” in International conference on software engineering, pp. 108–119, 2016.</p>
+</blockquote>
+]]></content:encoded></item><item><title>FSE 2025 Preview 2: Workshops</title><link>https://code-world-no-blanket.github.io/blog/2025-10-13_vlhcc25.html</link><author>dcbrown</author><category>research</category><guid>https://code-world-no-blanket.github.io/blog/2025-10-13_vlhcc25.html</guid><pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate><source url="https://code-world-no-blanket.github.io/blog">tag-research</source><content:encoded><![CDATA[<p><a href="https://conf.researchr.org/home/fse-2025">Foundations of Software Engineering</a> was a great opportunity to connect with and learn from software engineering researchers. In addition to the <a href="https://code-world-no-blanket.github.io/blog/2025-06-20_fse25.html">education and tool demo tracks</a> of the conference, we have several contributions to co-located workshops at FSE 2025 that will be presented later this week!</p>
+<p><strong>Towards Evidence-Based Tech Hiring Pipelines [SE 2030]</strong></p>
+<p>Chris Brown, Swanand Vaishampayan</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Software engineers are primarily hiring through a tech hiring pipeline, consisting of processes such as resume matching and technical interviews. However, we lack insights on how to effectively evaluate the capabilities of programmers.</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> We offer a roadmap to promote <em>evidence-based hiring</em> in the tech industry grounded in insights from evidence-based decision making---discuss challenging and future research directions to incorporate contextual, experiential, and research-based evidence into tech hiring pipelines.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We provide implications for improving tech hiring processes, enhancing SE research on hiring, preventing toxicity and promoting diversity and inclusion in hiring processes, and promoting the adoption of evidence-based practices on software engineering in practice.</p>
+</li>
+</ul>
+<p><strong>The First International Workshop on Large Language Model-Oriented Empirical Research (LLanMER) [FSE WS]</strong></p>
+<p>Na Meng, Xiaoyin Wang, Chris Brown (Workshop Organizers)</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> There is fast growing interest in the application of large language models (LLMs) in software practice and research. However, lots of questions remain regarding responsible, reliable, and reproducible empirical research with LLMs.</p>
+</li>
+<li>
+<p>💡 <strong>Workshop:</strong> Our <a href="https://llanmer.github.io">workshop</a> focuses on methodologies for conducting empirical research with LLMs. We aim to provide a venue to share ideas, discuss obstacles and challenges, brainstorm solutions, and establish collaborations in LLM-oriented empirical research.</p>
+</li>
+</ul>
+<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title">Note</p>
+<p>If you were attending FSE in Trondheim 🇳🇴, please join us for our workshop on Friday from 2:00-5:30pm in the Sirius room!</p>
+</div>
+<p><strong>From Prompts to Properties: Rethinking LLM Code Generation with Property-Based Testing [LLanMER]</strong></p>
+<p>Dibyendu Brinto Bose</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Large language models are increasingly used for code generation, however evaluating generated code is challenging and unit testing-based techniques are insufficient.</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We propose Property-Based Testing (PBT) as an alternative strategy, and conduct a preliminary evaluation using two code generation models (<a href="https://huggingface.co/blog/starcoder">StarCoder</a> and <a href="https://github.com/meta-llama/codellama">CodeLlama</a>) on two datasets (<a href="https://github.com/google-research/google-research/tree/master/mbpp">MBPP</a> and <a href="https://github.com/openai/human-eval">HumanEval</a>).</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> Our results show unit test-based evaluations provide insights on correctness, while PBT is capable of evaluating against additional logical and structural constraints to assess in generated code.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We suggest that hybrid approaches combining unit and property-based testing can provide a more reliable evaluation for LLM-generated code.</p>
+</li>
+</ul>
+<p><strong>The Evolution of Information Seeking in Software Development: Understanding the Role and Impact of AI Assistants [HumanAISE]</strong></p>
+<p>Ebtesam Al Haque, Chris Brown, Thomas D. LaToza, Brittany Johnson</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Information seeking constitutes a considerable part of software development---however, we lack insights on the impact of AI-assisted tools on software engineers' information needs and information-seeking behaviors.</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We conducted a mixed methods study, surveying and interviewing software practitioners to understand how developers use AI tools for information seeking and the impact of AI tools on productivity and skill development.</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> Most participants reported using AI tools to support information seeking. We also observed challenges with AI-assisted information seeking, mixed perceptions on perceived productivity, and positive impacts expanding developer knowledge and skills.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We discuss the evolution of information seeking behaviors in the age of AI, outlining productivity and learning trade-offs in addition to motivating future directions for AI-assisted developer tools.</p>
+</li>
+</ul>
+<p><strong>Benchmark Infrastructure for LLMs for Code (BI4LLMC)</strong></p>
+<p>I was also invited to participate in the International Workshop on Benchmark Infrastructure for LLMs for Code, aiming to devise solutions to address the growing need for effective and rigorous evaluations of LLMs for coding-related tasks.</p>
+<p>We hope the discussions at these workshops will spark new ideas, build community, and create new questions for us to explore within the evolving landscape of software engineering and SE research.</p>
+]]></content:encoded></item><item><title>FSE 2025 Preview 2: Workshops</title><link>https://code-world-no-blanket.github.io/blog/2025-06-25_fse25.2.html</link><author>dcbrown</author><category>research</category><guid>https://code-world-no-blanket.github.io/blog/2025-06-25_fse25.2.html</guid><pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate><source url="https://code-world-no-blanket.github.io/blog">tag-research</source><content:encoded><![CDATA[<p><a href="https://conf.researchr.org/home/fse-2025">Foundations of Software Engineering</a> was a great opportunity to connect with and learn from software engineering researchers. In addition to the <a href="https://code-world-no-blanket.github.io/blog/2025-06-20_fse25.html">education and tool demo tracks</a> of the conference, we have several contributions to co-located workshops at FSE 2025 that will be presented later this week!</p>
+<p><strong>Towards Evidence-Based Tech Hiring Pipelines [SE 2030]</strong></p>
+<p>Chris Brown, Swanand Vaishampayan</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Software engineers are primarily hiring through a tech hiring pipeline, consisting of processes such as resume matching and technical interviews. However, we lack insights on how to effectively evaluate the capabilities of programmers.</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> We offer a roadmap to promote <em>evidence-based hiring</em> in the tech industry grounded in insights from evidence-based decision making---discuss challenging and future research directions to incorporate contextual, experiential, and research-based evidence into tech hiring pipelines.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We provide implications for improving tech hiring processes, enhancing SE research on hiring, preventing toxicity and promoting diversity and inclusion in hiring processes, and promoting the adoption of evidence-based practices on software engineering in practice.</p>
+</li>
+</ul>
+<p><strong>The First International Workshop on Large Language Model-Oriented Empirical Research (LLanMER) [FSE WS]</strong></p>
+<p>Na Meng, Xiaoyin Wang, Chris Brown (Workshop Organizers)</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> There is fast growing interest in the application of large language models (LLMs) in software practice and research. However, lots of questions remain regarding responsible, reliable, and reproducible empirical research with LLMs.</p>
+</li>
+<li>
+<p>💡 <strong>Workshop:</strong> Our <a href="https://llanmer.github.io">workshop</a> focuses on methodologies for conducting empirical research with LLMs. We aim to provide a venue to share ideas, discuss obstacles and challenges, brainstorm solutions, and establish collaborations in LLM-oriented empirical research.</p>
+</li>
+</ul>
+<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title">Note</p>
+<p>If you were attending FSE in Trondheim 🇳🇴, please join us for our workshop on Friday from 2:00-5:30pm in the Sirius room!</p>
+</div>
+<p><strong>From Prompts to Properties: Rethinking LLM Code Generation with Property-Based Testing [LLanMER]</strong></p>
+<p>Dibyendu Brinto Bose</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Large language models are increasingly used for code generation, however evaluating generated code is challenging and unit testing-based techniques are insufficient.</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We propose Property-Based Testing (PBT) as an alternative strategy, and conduct a preliminary evaluation using two code generation models (<a href="https://huggingface.co/blog/starcoder">StarCoder</a> and <a href="https://github.com/meta-llama/codellama">CodeLlama</a>) on two datasets (<a href="https://github.com/google-research/google-research/tree/master/mbpp">MBPP</a> and <a href="https://github.com/openai/human-eval">HumanEval</a>).</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> Our results show unit test-based evaluations provide insights on correctness, while PBT is capable of evaluating against additional logical and structural constraints to assess in generated code.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We suggest that hybrid approaches combining unit and property-based testing can provide a more reliable evaluation for LLM-generated code.</p>
+</li>
+</ul>
+<p><strong>The Evolution of Information Seeking in Software Development: Understanding the Role and Impact of AI Assistants [HumanAISE]</strong></p>
+<p>Ebtesam Al Haque, Chris Brown, Thomas D. LaToza, Brittany Johnson</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Information seeking constitutes a considerable part of software development---however, we lack insights on the impact of AI-assisted tools on software engineers' information needs and information-seeking behaviors.</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We conducted a mixed methods study, surveying and interviewing software practitioners to understand how developers use AI tools for information seeking and the impact of AI tools on productivity and skill development.</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> Most participants reported using AI tools to support information seeking. We also observed challenges with AI-assisted information seeking, mixed perceptions on perceived productivity, and positive impacts expanding developer knowledge and skills.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We discuss the evolution of information seeking behaviors in the age of AI, outlining productivity and learning trade-offs in addition to motivating future directions for AI-assisted developer tools.</p>
+</li>
+</ul>
+<p><strong>Benchmark Infrastructure for LLMs for Code (BI4LLMC)</strong></p>
+<p>I was also invited to participate in the International Workshop on Benchmark Infrastructure for LLMs for Code, aiming to devise solutions to address the growing need for effective and rigorous evaluations of LLMs for coding-related tasks.</p>
+<p>We hope the discussions at these workshops will spark new ideas, build community, and create new questions for us to explore within the evolving landscape of software engineering and SE research.</p>
+]]></content:encoded></item><item><title>FSE 2025 Preview</title><link>https://code-world-no-blanket.github.io/blog/2025-06-20_fse25.html</link><author>dcbrown</author><category>research</category><guid>https://code-world-no-blanket.github.io/blog/2025-06-20_fse25.html</guid><pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate><source url="https://code-world-no-blanket.github.io/blog">tag-research</source><content:encoded><![CDATA[<p>The ACM International Conference on the <a href="https://conf.researchr.org/home/fse-2025">Foundations of Software Engineering</a> (FSE) is one of the leading  venues for software engineering-related research---targeting researchers, practitioners, and stakeholders. We're excited to share that several of our recent papers were accepted and will be presented at the main track of the conference this year (a follow-up post will highlight the workshop papers). In this post, we briefly summarize the problems explored, provide an overview of our research findings, and discuss implications from three papers that will appear in the FSE main track:</p>
+<p><strong>How do Software Engineering Candidates Prepare for Technical Interviews? [FSE SEET]</strong></p>
+<p>Brian Bell, Teresa Thomas, Sang Won Lee, Chris Brown</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Current tech hiring interview processes are challenging, difficult to prepare for, and rarely faced by candidates in computing curriculum and education.</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We surveyed 131 candidates actively pursuing SE-related roles to understand how they prepare for technical interviews.</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> Candidates use varied tools to prepare (mostly YouTube and LeetCode), but rarely train in authentic settings (with coding, communication, and an audience) and lack support in education---leading to increased anxiety and unpreparedness. However, candidates who practice with others (i.e., mock interviews) feel significantly more prepared than those who train alone.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We provide implications for how candidates, employers, tech interview preparation resources, and CS education can enhance students' preparedness for technical interviews---a process necessary to obtain employment in the tech industry.</p>
+</li>
+</ul>
+<p><strong>DevCoach: Supporting Students Learning the Software Development Life Cycle with a Generative AI powered Multi-Agent System [FSE SEET]</strong></p>
+<p>Tianjia Wang, Matthew Trimble, Chris Brown</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> The software development lifecycle (SDLC) is critical for developing and maintaining software systems, yet challenging to effectively incorporate within learning environments. Recent work has explored leveraging generative AI to enhance SE education, but how effectively can it support learning and practical experiences for students learning SDLC concepts?</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We implemented <code>DevCoach</code>, a multi-agent system consisting of AI-powered personas representing roles in SE teams to help students learn and complete tasks related to the SDLC (e.g., requirements, design, implementation, testing, and review). We evaluated our tool with a user study with 20 students across DevCoach and baseline study settings.</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> Our results show <code>DevCoach</code> demonstrated the ability to enhance student learning gains, enhanced students' completion of SDLC activities, and improved perceived aspects of learning environments grounded in the Community of Inquiry framework (social, cognitive, and teaching presence) [Garrison1999].</p>
+</li>
+<li>
+<p>💡 <strong>Implications:</strong> We discuss the potential of generative AI and multi-agent systems in advancing SE education to offer personalized and collaborative experiences to help learners receive training on other software development concepts.</p>
+</li>
+</ul>
+<p><strong>AutoPyDep: A Recommendation System for Python Dependency Management Utilizing Graph-Based Analytics [FSE Tool Demo]</strong></p>
+<p>Dibyendu Brinto Bose, Travis Chan, Matthew Trimble, Chris Brown</p>
+<ul>
+<li>
+<p>🔍 <strong>Problem:</strong> Managing software dependencies is increasingly complex in modern software development---particularly in popular programming languages such as Python [Neils2024], causing frustration for programmers across varied domains.</p>
+</li>
+<li>
+<p>🧪 <strong>Study:</strong> We implemented <code>AutoPyDep</code>, a graph-based recommendation system to support Python dependency management through various features such as centrality analysis of dependencies, visualizations for library interdependencies, and predicting the nature and timing of releases based on historical data. We conducted a preliminary evaluation to assess the prediction capabilities of our tool.</p>
+</li>
+<li>
+<p>📊 <strong>Findings:</strong> Using a collected <a href="https://anonymous.4open.science/r/Graph_Analysis-9D03/">dataset</a> of Python release notes, we found <code>AutoPyDep</code> demonstrated accurate capabilities for release type (New Features (<em>F1 = 0.95</em>), Bug Fixes (<em>F1 = 0.94</em>), Security (<em>F1 = 0.92</em>), and Performance (<em>F1 = 0.89</em>)) and date (mean error ~ 2 months) predictions.</p>
+</li>
+<li>
+<p>💡 <strong>Implication:</strong> We briefly discuss implications and future work to enhance <code>AutoPyDep</code> and future dependency management systems.</p>
+</li>
+</ul>
+<p>We look forward to sharing these efforts and engaging with the research community at FSE 2025. We hope these papers---reflecting ongoing threads in our overall research---provide useful insights, and we welcome discussions, critiques, and collaborations that can extend them further. Looking forward to attending the conference and hope to see you in Trondheim, Norway next week! Also stay tuned for an upcoming post on our contributions to several of the FSE workshops.</p>
+<hr />
+<p><strong>References</strong></p>
+<blockquote>
+<p>[Garrison1999] Garrison, D. Randy, Terry Anderson, and Walter Archer. &quot;Critical inquiry in a text-based environment: Computer conferencing in higher education.&quot; The internet and higher education 2.2-3 (1999): 87-105.</p>
+<p>[Neils2024] Niels Cautaerts. &quot;Python dependency management is a dumpster fire&quot;. 2024. <a href="https://nielscautaerts.xyz/python-dependency-management-is-a-dumpster-fire.html">https://nielscautaerts.xyz/python-dependency-management-is-a-dumpster-fire.html</a></p>
+</blockquote>
+]]></content:encoded></item><item><title>We Hosted a Workshop for Practitioners---No One Came</title><link>https://code-world-no-blanket.github.io/blog/2025-06-05_workshop.html</link><author>dcbrown</author><category>outreach</category><category>security</category><category>testing</category><category>CI/CD</category><category>research</category><guid>https://code-world-no-blanket.github.io/blog/2025-06-05_workshop.html</guid><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><source url="https://code-world-no-blanket.github.io/blog">tag-research</source><content:encoded><![CDATA[<p>As part of a <a href="https://chbrown13.github.io/files/grants/Brown_CCI_2025.pdf">recent grant</a>, we were required to host a topical workshop to share ideas and promote collaboration among stakeholders. I decided to design our workshop primarily for software practitioners (individuals who apply software engineering concepts in real-world industry settings). As one of our <a href="about.html">research group goals</a> is to explore how we might bridge the gap between academia and industry---this seemed like the perfect opportunity.</p>
+<h4><a href="#the-workshop" aria-hidden="true" class="anchor" id="the-workshop"></a>The Workshop</h4>
+<p>The workshop was organized to be an interactive “working group” on topics related to our grant <a href="https-code-world-no-blanket-github-io-cci-workshop.html">testing and securing user interfaces in CI/CD pipelines</a>. The event featured research presentations share and collect feedback on preliminary research findings, interactive discussions to uncover challenges in practice, and brainstorming sessions to motivate new solutions and researh directions. We espectially hoped to target practitioners for our workshop to gain industry perspectives and inspire future work with practical implications and relevance.</p>
+<p>We started planning the workshop activities in late March (~7 weeks before the event) and finalized the details to share in mid-April (~3.5 weeks before). 20 people registered to attend through our online form (14 in-person and 6 virtual, mostly from VT but some external). We booked a conference room on campus and two graduate students put in a lot of work to prepare presentation slides and activities related to their research from this project.</p>
+<p>Yet, when the time for the workshop arrived---<strong>no one showed up</strong>. Actually two people came---another graduate student from our research group and a CS faculty member working on related research---and I am extremely grateful for their attendance. However, this was way less than the expected attendance and not a single software practitioner (the intended audience) joined our workshop.</p>
+<p>We still had a great time---and received valuable insights and feedback on our work. However, I was very dissapointed we were unable to attract a broader audience. Here is an overview of what we tried to attract practitioners to our workshop, and a brief reflection on what to do differently next time.</p>
+<h4><a href="#attracting-software-practitioners" aria-hidden="true" class="anchor" id="attracting-software-practitioners"></a>Attracting Software Practitioners</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>How We Tried to Appeal to Software Practitioners</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🧑‍💻</td>
+<td>Focused on (what we perceived to be) <em>industry-relevant topics</em>: <br>- UI testing 🧪 <br>- UI security 🔒 <br>- CI/CD pipelines 🔁</td>
+</tr>
+<tr>
+<td>🎙️</td>
+<td>Invited a <em><a href="https://automationpanda.com/">world-class speaker</a></em> with extensive industry experience, who provided a very interesting and highly relevant virtual keynote despite the low turnout</td>
+</tr>
+<tr>
+<td>📆</td>
+<td>Hosted the event on <em>Saturday</em> to avoid potential conflicts due to work schedules</td>
+</tr>
+<tr>
+<td>🗣️</td>
+<td><em>Publicized the workshop</em> to our <a href="https://nrv.dev/">local developer group</a> Slack channel and <a href="https://www.linkedin.com/posts/activity-7323820203622998016-C_5o?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAtzWLgBdl1B9ECX-U57kWPxRdtcmPPQI7Y">LinkedIn</a></td>
+</tr>
+<tr>
+<td>💻</td>
+<td>Made the event <em>hybrid</em> to support in-person and virtual attendance</td>
+</tr>
+<tr>
+<td>🍕</td>
+<td>Provided <em>free food</em> (lunch and refreshments)</td>
+</tr>
+</tbody>
+</table>
+<h4><a href="#reflection" aria-hidden="true" class="anchor" id="reflection"></a>Reflection</h4>
+<dl>
+<dt>There are some clear issues that might have prevented attendance---a 4-hour workshop on a Saturday might be too long of a time commitment, hosting it on campus may have deterred non-academic attendees, providing compensation would have encouraged participation, etc. Here are some more takeaways on what we could do better next time.</dt>
+<dd>📖 <strong>Research-to-Practice Relevance:</strong> I assumed our research topic (UI testing and security in CI/CD) would be relevant to software developers---and our preliminary findings from this work show it is a challenge for practitioners in open-source development [Gan2025]. However, it may not be a topic developers are actually interested in, or did not resonate with the population we reached out too. Reaching out to the target audience ahead of time to see what issues/topics they care about, then organizing our outreach based on that may be more effective. In addition, better communication regarding the direct relevance and value of the topic/our work could help.</dd>
+<dd>📢 <strong>Broader Promotion:</strong> To promote the workshop, I shared messages on the local developer Slack channel (n = 2) and LinkedIn (n = 1), in addition to emails to relevant listservs at Virginia Tech. However, more broad and more frequent publicizing may have helped. I am also personally off most social media now, with the exception of LinkedIn. Yet, it may be beneficial to re-join social media and explore other online platforms to promote our work and engage with development-related communities. Suggestions are appreciated!</dd>
+<dd>🤝 <strong>Deeper Relationships:</strong> Finally and most importantly, deeper connections with the target audience could enhance future efforts. This was not my first time messaging this particular group, and I have met and interacted with several members of this community before. However, establishing personal connections and more in-depth relationships can encourage engagement and motivate participation. For instance, attending events and meetup groups hosted by this organization to engage with developers through face-to-face interactions. This will also help gain insights on what our local developer community cares about, motivating future research studies and enhancing the overall relevance of our work.</dd>
+</dl>
+<p>We will regroup and eventually try again---planning to incorporate some of these items as we potentially explore other ways to showcase our work and help bridge the research-practice gap. Any thoughts, tips, or suggestions on how to better engage with practitioners as researchers are welcome.</p>
+<hr />
+<p><strong>References</strong></p>
+<blockquote>
+<p>[Gan2025]: X. Gan, H. Liang, C. Brown. &quot;Challenges, Strategies, and Impacts: A Qualitative Study on UI Testing in CI/CD Processes from GitHub Developers' Perspectives&quot;. <em>International Conference on Software Testing, Verification and Validation</em> (ICST 2025).</p>
+</blockquote>
+]]></content:encoded></item></channel></rss>
