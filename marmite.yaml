@@ -8,7 +8,7 @@ menu:
   - ["Tags", "tags.html"]
   - ["Archive", "archive.html"]
   - ["About", "about.html"]
-  - ["Github ↗️", "https://github.com/code-world-no-blanket/blog"]
+  - ["Github", "https://github.com/code-world-no-blanket/"]
 
 default_author: dcbrown
 authors:
@@ -16,5 +16,10 @@ authors:
     name: Chris Brown
     avatar: https://chbrown13.github.io/files/img/brown.jpg
     bio: Assistant Professor at Virginia Tech
+
+enable_search: true
+search_title: Search
+search_show_matches: true  # optional: show matched text snippets in results
+search_match_count: 3      # optional: number of snippets per result (default: 3)
 # More options available to customize the website
 # read on https://rochacbruno.github.io/marmite/tag/customization.html

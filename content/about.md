@@ -12,9 +12,13 @@ We are a software engineering research group in the Department of Computer Scien
 
 ### Why start this blog?
 
-This blog is motivated by recent discussions with colleagues and position papers (i.e., [Winters2024], [Wyrich2025], etc.) outlining the increasing gap between SE research and practice. Just publishing papers is not enough---for research to make an actual impact on software development in practice, more efforts are needed. 
+This blog is motivated by discussions with colleagues, the [Algorithm](https://www.inevitable.live/algorithm)---a [new blog](https://www.inevitable.live/algorithm/first-post) by rapper J. Cole (who motivated the name of this research group), and recent position papers (i.e., [Winters2024], [Wyrich2025], etc.) outlining the increasing gap between SE research and practice. Just publishing papers is not enough---for research to make an actual impact on software development in practice, more efforts are needed. 
 
 This blog is a first step to improve the awareness, relevance, and potential impact of our research. We will provide regular communication about our work, aiming to engage with researchers and practitioners on research and general software development-related topics. If you would like to [contribute](https://github.com/code-world-no-blanket/blog), [collaborate](https://code-world-no-blanket.github.io/research.html), or [donate](https://github.com/sponsors/code-world-no-blanket), please feel free to reach out via <a href="mailto:code_world@vt.edu">email</a>. 
+
+### Join a Research Study!
+
+**Are you interested in advancing software engineering research?** We are actively looking for software engineers, tech professionals, and researchers to contribute to our work. Your insights are extremely valuable, and your expertise will help shape future research initiatives and improve development practices in the field. To see how you can get involved and explore ongoing opportunities, please find a list of our active studies [here](https://github.com/orgs/code-world-no-blanket/discussions/categories/research-studies).
 
 ### Acknowledgements
 
