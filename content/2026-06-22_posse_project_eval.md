@@ -5,7 +5,7 @@ authors: dcbrown
 
 # POSSE Project Evaluator
 
-A few days ago, I [reflected on my experience](2026-06-10_posse.html) at the Professors' Open Source Software Experience (POSSE) workshop, a three-day event focused on integrating HFOSS into classroom settings. One of the most practical takeaways was focusing on **project health checks** to evaluate whether an open-source repository is a good fit for students. The workshop introduced a [9-criterion rubric](https://teachingopensource.org/Project_Evaluation_Rubric_(Activity)) (scored 0-2, 18 points max) that instructors can use as a quick first pass.
+A few days ago, I [reflected on my experience](./2026-06-10_posse.html) at the Professors' Open Source Software Experience (POSSE) workshop, a three-day event focused on integrating HFOSS into classroom settings. One of the most practical takeaways was focusing on **project health checks** to evaluate whether an open-source repository is a good fit for students. The workshop introduced a [9-criterion rubric](https://teachingopensource.org/Project_Evaluation_Rubric_(Activity)) (scored 0-2, 18 points max) that instructors can use as a quick first pass.
 
 The workshop provided a guided example, interactive activity to review an existing project, and unconference time for participants to devote to planning for OSS integration into their courses. I found the rubric very helpful for systematically assessing whether candidate projects are active, well-maintained, etc., but I quickly found that applying it manually to repositories was time-consuming and tedious. In particular, for each project I had to:
 
