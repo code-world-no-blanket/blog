@@ -5,7 +5,7 @@ authors: dcbrown
 
 # An Agent Template for Teaching Software Engineering
 
-Generative AI coding assistants are rapidly changing how software is developed in practice, and students are increasingly using these tools into their coursework with or without instructor guidance. In a [recent reflection](./2026-06-10_posse.html) on the POSSE workshop, I discussed plans to integrate free and open-source AI-assisted development tools into our undergraduate software engineering course this fall ([CS3704: Intermediate Software Design and Engineering](https://github.com/CS3704-VT/Course)) this fall. The plan included adopting open-source AI tooling along with automating scaffolding so the focus stays on [learning with the usage of AI tools](Wang2025). 
+Generative AI coding assistants are rapidly changing how software is developed in practice, and students are increasingly using these tools into their coursework with or without instructor guidance. In a [recent reflection](./2026-06-10_posse.html) on the POSSE workshop, I discussed plans to integrate free and open-source AI-assisted development tools into our undergraduate software engineering course this fall ([CS3704: Intermediate Software Design and Engineering](https://github.com/CS3704-VT/Course)) this fall. The plan included adopting open-source AI tooling along with automating scaffolding so the focus stays on learning with the usage of AI tools [Wang2025]. 
 
 This post introduces the **[agent template](https://github.com/CS3704-VT/agent-template)** I will use for the class this semester. The template is based on [opencode](https://opencode.ai), a free and open-source AI coding environment similar to Claude Code where students interact with a team of specialized AI agents. Students will leverage this harness using models provided through the Virginia Tech Advanced Research Computing, most of which are open-source/open-weight and are freely available to VT students. 
 
@@ -37,7 +37,7 @@ Derived from the skills from [Cat Hicks](https://www.drcathicks.com/), the [`lea
 
 ### Learning Goal
 
-The [`learning-goal`](https://github.com/DrCatHicks/learning-goal)` skill, also based on work by Cat Hicks, is a structured goal-setting exercise based on Mental Contrasting with Implementation Intentions [Oettingen2010]. Students can set a concrete goal, refine it, identify obstacles, and build if-then plans to overcome them. The exercise supports three scopes (semester-wide, per-assignment, and team project goals) and produces a concise goal card that agents can reference throughout the semester.
+The [`learning-goal`](https://github.com/DrCatHicks/learning-goal) skill, also based on work by Cat Hicks, is a structured goal-setting exercise based on Mental Contrasting with Implementation Intentions [Oettingen2010]. Students can set a concrete goal, refine it, identify obstacles, and build if-then plans to overcome them. The exercise supports three scopes (semester-wide, per-assignment, and team project goals) and produces a concise goal card that agents can reference throughout the semester.
 
 ### Submit
 
